@@ -7,7 +7,7 @@ Este proyecto se genero para implementar una pagina con html y css y repositorio
 
 ## Como ejecutar el proyecto 
  1. Clonar el repositorio
-    git clone https://github.com/emmanuel12008/html_EmmanuelRM.git
+    git clone https://github.com/emmanuel12008/Pagina-Web
  2. Abre el archivo idex.html en su navegador 
 
 ## Requisitos <!-- seccion donde se eplica que requirimemientos debe tener el ususario-->
