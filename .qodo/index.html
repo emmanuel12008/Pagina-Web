@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chicharronería Free Fire</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="branding">
+        <h1 class="title">Chicharronería Free Fire</h1>
+        <p class="subtitle">Chicharrón crujiente, sabor encendido</p>
+      </div>
+      <nav class="main-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#contacto">Ubicación</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio" class="site-main container">
+    <section class="hero" id="menu">
+      <h2>Chicharrón al momento</h2>
+      <p>
+        En Chicharronería Free Fire preparamos chicharrón crujiente todos los días, con
+        cortes seleccionados y sazón casera. Disfruta nuestras porciones clásicas,
+        en salsa verde o roja, tacos.
+        
+      </p>
+    </section>
+
+    <section class="gallery">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Chicharrón clásico" />
+        <div class="card-body">
+          <h3>Chicharrón Clásico</h3>
+          <p>Porción crujiente con limón y salsas de la casa.</p>
+          <a class="btn" href="https://es.wikipedia.org/wiki/Chicharr%C3%B3n" target="_blank" rel="noopener noreferrer">Saber más</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://www.mexirecetas.com/recetas-de-antojitos/img600/chicharron-salsa-verde.jpg" alt="Chicharrón en salsa verde" />
+        <div class="card-body">
+          <h3>Chicharrón en Salsa Verde</h3>
+          <p>Guiso casero, perfecto en taco o en plato.</p>
+          <a class="btn" href="https://www.cocinadelirante.com/receta/carne/receta-de-chicharron-en-salsa-verde" target="_blank" rel="noopener noreferrer">Ver receta</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer">
+    <div class="container footer-grid">
+      <address>
+        <strong>Dirección:</strong>
+        <div>Av. Sabor 456, Col. Centro, Ciudad</div>
+      </address>
+      <div>
+        <strong>Correo:</strong>
+        <a href="mailto:pedidos@freefirechicharron.com">pedidos@freefirechicharron.com</a>
+      </div>
+      <div>
+        <strong>Teléfono:</strong>
+        <a href="tel:+5215512345678">+52 1 55 1234 5678</a>
+      </div>
+      <div>
+        <a class="btn btn-map" href="https://www.google.com/maps/@5.3344611,-72.3918625,14z?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Chicharronería Free Fire</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
